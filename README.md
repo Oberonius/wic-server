@@ -31,9 +31,9 @@ docker build -t wic-server . && docker run -it -p 3000:3000 wic-server
 docker-compose up
 ```
 
-##Protocol
+## Protocol
 
-###Commands:
+### Commands:
 ```
 #start new game. new game's name will be similar to players name
 START {yourName}
@@ -56,7 +56,7 @@ SHOOT {x} {y}
 EXIT
 ```
 
-###Server replies
+### Server replies
 ```
 #Zombie moved to cell. Announces every two seconds
 WALK {name} {x} {y}
